@@ -1,4 +1,5 @@
-1. <b>Setup</b>
+### Setup
+1. <b>create project</b>
 ```
 - npx create-next-app@latest
 ```
@@ -55,6 +56,28 @@ export default config;
 @tailwind utilities;
 ```
 
+#### Routing
+1. route will be ```/directory/...``` and it follows ```page.tsx```
+2. Nested routing allowed
+3. Dynamic routing by: ```[repo]``` and follows ```page.tsx```. To detect page based on link, use params. And it is async operator.
+    ```
+    import React from 'react'
+
+    const page = async ({ params }: {params: Promise<{id: string}> }) => {
+
+        const { id } = await params;
+
+        return (
+            <div>
+            <h3>USER DETAILS PAGE: {id}</h3>
+            </div>
+        )
+    }
+
+    export default page
+
+    ```
+
 #### Run & Deploy
 - Run: 
 ```
@@ -64,7 +87,7 @@ npm run dev
 
 #### Info
 - public: all static assets
-- In nextjs: file-based routing system. It follows ```page.tsx``` and route will ```/directory/...```
+- In nextjs: file-based routing system.
 - In nextjs: all components are server component. But u can make it client component by adding ```use client```
 - for client-side interaction make it client component. Otherwise keep it as server component.
 - for client components: React Strict Mode verify component's purity. So, its appear double times.
