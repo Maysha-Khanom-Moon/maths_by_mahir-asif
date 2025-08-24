@@ -1,7 +1,12 @@
 import React from 'react'
 
+export const metadata = {
+  title: 'About',
+  description: 'This is the about page',
+}
+
 const page = () => {
-  throw new Error('NOT IMPLEMENTED')
+  // throw new Error('NOT IMPLEMENTED')
 
   return (
     <div>

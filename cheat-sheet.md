@@ -134,6 +134,11 @@ export default config;
 - api routes: secure, server-only endpoints.
 
 
+#### SEO
+- by adding metadata, and it will overwrite the default global metadata
+- dynamic metadata: async function ```generateMetadata```
+- file-based metadata, it has higher priority
+
 #### Run & Deploy
 - Run: 
 ```
