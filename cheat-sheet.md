@@ -96,6 +96,12 @@ export default config;
     export default Layout
     ```
 
+#### Route Groups
+- It organize routes without affecting the URL structure.
+- ```(repo)```: it will be not included in url
+- so its possible to add different layout for each repo without effecting the url
+
+
 #### Run & Deploy
 - Run: 
 ```
