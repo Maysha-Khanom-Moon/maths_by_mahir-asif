@@ -1,20 +1,3 @@
-1. <b>Setup</b>
-```
-- npx create-next-app@latest
-```
-```
-    - name?  ./
-    - TypeScript?  Y
-    - ESLint?  Y
-    - Tailwind CSS?  Y
-    - src/directory?  N
-    - App Router?  Y
-    - Turbopack?  Y
-    - import alias?  N
-```
-
-2. <b>Add ```tailwind.config.ts```</b>
-```
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -34,4 +17,3 @@ const config: Config = {
 };
 
 export default config;
-```
