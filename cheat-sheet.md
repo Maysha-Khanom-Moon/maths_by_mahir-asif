@@ -107,6 +107,12 @@ export default config;
 - for further details follow nextjs document for error handling
 - error is unlike layout, it will just appear the closest one.
 
+
+#### Loading UIs
+- nextjs will show ```loading.tsx``` until the page is ready
+- the nearest one will be used.
+
+
 #### Run & Deploy
 - Run: 
 ```
