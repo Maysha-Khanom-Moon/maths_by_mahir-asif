@@ -35,3 +35,35 @@ const config: Config = {
 
 export default config;
 ```
+3. ```postcss.config.mjs```
+```
+const config = {
+  plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+  },
+};
+
+export default config;
+
+```
+
+4. Inside ```globals.css```
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+#### Run & Deploy
+- Run: 
+```
+npm run dev
+```
+
+
+#### Info
+<pre>
+- public: all static assets
+
+</pre>
