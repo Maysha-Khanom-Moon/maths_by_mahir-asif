@@ -113,6 +113,14 @@ export default config;
 - the nearest one will be used.
 
 
+#### Data fetching
+1. client-side data fetching
+    - use client + useEffect and useState
+
+2. server-side data fetching (follow documentation)
+    - improve initial loa d time, better seo, better dx (shorter code, simple logic), better security, and automatic request deduplication
+
+
 #### Run & Deploy
 - Run: 
 ```
