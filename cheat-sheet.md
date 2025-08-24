@@ -121,6 +121,19 @@ export default config;
     - improve initial loa d time, better seo, better dx (shorter code, simple logic), better security, and automatic request deduplication
 
 
+#### Server-side strategies
+- static-site generation (ssg): when data is mostly static (marketing/blog pages).
+
+- incremental static regeneration (isr): static pages that need occasional refresh.
+    - without rebuilding the whole app, it tell Next.js how often a page should be revalidated.
+
+- static-site rendering (ssr): when data must always be fresh (e.g., user dashboards).
+
+- streaming & suspense: large/dynamic content where you want instant UI feedback.
+
+- api routes: secure, server-only endpoints.
+
+
 #### Run & Deploy
 - Run: 
 ```
