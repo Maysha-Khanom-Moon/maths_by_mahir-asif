@@ -64,6 +64,7 @@ npm run dev
 
 #### Info
 - public: all static assets
+- In nextjs: file-based routing system. It follows ```page.tsx``` and route will ```/directory/...```
 - In nextjs: all components are server component. But u can make it client component by adding ```use client```
 - for client-side interaction make it client component. Otherwise keep it as server component.
 - for client components: React Strict Mode verify component's purity. So, its appear double times.
