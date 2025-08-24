@@ -63,7 +63,8 @@ npm run dev
 
 
 #### Info
-<pre>
 - public: all static assets
-
-</pre>
+- In nextjs: all components are server component. But u can make it client component by adding ```use client```
+- for client-side interaction make it client component. Otherwise keep it as server component.
+- for client components: React Strict Mode verify component's purity. So, its appear double times.
+- Server-side pre-rendering: HTML for a page is generated before it reaches the browser.
