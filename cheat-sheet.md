@@ -78,6 +78,24 @@ export default config;
 
     ```
 
+#### Layouts
+- ```layout.tsx``` works as parent of all the routes
+- we can add more layout in the other repos as its parent component
+    ```
+    import React from 'react'
+
+    const Layout = ({ children }: {children: React.ReactNode}) => {
+    return (
+        <div>
+        <h1 className='text-3xl'>Dashboard Layout</h1>
+        { children }
+        </div>
+    )
+    }
+
+    export default Layout
+    ```
+
 #### Run & Deploy
 - Run: 
 ```
