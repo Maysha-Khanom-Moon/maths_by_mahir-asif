@@ -102,6 +102,11 @@ export default config;
 - so its possible to add different layout for each repo without effecting the url
 
 
+#### Error Handling
+- ```error.js``` in repo. it can be specific too.
+- for further details follow nextjs document for error handling
+- error is unlike layout, it will just appear the closest one.
+
 #### Run & Deploy
 - Run: 
 ```
